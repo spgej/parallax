@@ -1,10 +1,14 @@
 .margin {
   margin: 0;
   padding: 0;
+  background: url("/images/Skb6Zx.webp");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .mainimgbg {
-  background: url("/images/Skb6Zx.webp");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -15,18 +19,24 @@
   padding-top: 8%;
 }
 
+.mid-section {
+  margin: auto;
+}
+
 .mainimgbg h1 {
   text-align: left;
   padding-left: 9%;
   padding-top: 2%;
   font-size: 7em;
   color: #fcf5e5;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .mainimgbg h2 {
   text-align: left;
   padding-left: 9%;
   color: #fcf5e5;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #header {
@@ -59,29 +69,37 @@
 }
 
 #header ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
   text-decoration: none;
   padding: 8px 15px;
-  color: #fcf5e5;
+  color: black;
   border-radius: 20px;
 }
 
 #header ul li a:hover,
 #header ul li a.active {
   background: #b57753;
+  color: white;
 }
 
 .reel {
   text-align: center;
   width: 100%;
+  padding: 2%;
+  margin: auto;
   justify-content: center;
 }
 
 .reel h1 {
+  font-size: 2.5em;
   padding-top: 3%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .reel h3 {
-  padding-top: 2%;
+  margin-top: 6%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .reel .ans {
@@ -90,14 +108,21 @@
   margin: 2%;
   justify-content: center;
   text-align: center;
+  padding: 20px 10px;
 }
 
 .reel .ans img {
-  width: 40%;
+  max-width: 80%;
+}
+
+.reel p {
+  max-width: 70%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .cost {
-  background: #f2bb40;
+   background: inherit;
   padding: 2% 10%;
 }
 
@@ -105,11 +130,14 @@
   color: #fcf5e5;
   text-align: center;
   margin: 2%;
+  font-size: 2.5em;
   margin-bottom: 5%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .card {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-dark {
