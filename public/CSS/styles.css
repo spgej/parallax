@@ -1,19 +1,99 @@
-.margin
-{
+.margin {
   margin: 0;
   padding: 0;
 }
-.mainimgbg
-{
-  background: url("/images/IMG_0251.JPG");
+
+.mainimgbg {
+  background: url("/images/Skb6Zx.webp");
   width: 100%;
-  height: auto;
+  height: 90vh;
   background-size: cover;
   background-attachment: fixed;
 }
-h1
-{
-  padding: 30% 0;
-  margin: auto;
+
+.inner-section {
+  padding-top: 8%;
+}
+
+.mainimgbg h1 {
+  text-align: left;
+  padding-left: 9%;
+  font-size: 8em;
+  color: white;
+}
+
+.mainimgbg h2 {
+  text-align: left;
+  padding-left: 9%;
+  color: white;
+}
+
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header ul {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 90%;
+  padding: 1% 4%;
+  margin: 0;
+}
+
+#header li {
+  text-decoration: none;
+  justify-content: center;
+  color: white;
+  padding: 0 2%;
+  list-style: none;
+  font-size: 1.4em;
+}
+
+#header ul li a {
+  text-decoration: none;
+  padding: 8px 15px;
+  ;
+  color: white;
+  border-radius: 20px;
+}
+
+#header ul li a:hover,
+#header ul li a.active {
+  background: #b57753;
+}
+
+.reel {
   text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.reel h1
+{
+  padding: 3%;
+}
+
+.reel h3
+{
+  padding-top: 2%;
+}
+
+.reel .ans {
+  display: inline-block;
+  width: 40%;
+  margin: 2%;
+  justify-content: center;
+  text-align: center;
+}
+
+.reel .ans img
+{
+  width: 40%;
 }
